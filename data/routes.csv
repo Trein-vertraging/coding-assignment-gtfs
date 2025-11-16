@@ -1,0 +1,7 @@
+route_id,route_short_name,route_long_name
+R1,ICE 70,Hamburg → Basel
+R2,IC 240,Berlin → Köln
+R3,ICE 401,Frankfurt → Berlin
+R4,IC 88,Bremen → Hamburg
+R5,ICE 120,Amsterdam → Frankfurt
+R6,RE 5,Hannover → Köln
