@@ -30,7 +30,7 @@ Describes the different train routes/lines.
 
 - `route_id`: Unique identifier for the route
 - `route_short_name`: Short name (e.g., "ICE 70")
-- `route_long_name`: Descriptive long name (e.g., "Hamburg � Basel")
+- `route_long_name`: Descriptive long name (e.g., "Hamburg -> Basel")
 
 #### 3. `trips.csv`
 
@@ -67,7 +67,7 @@ The dataset is designed with realistic complexity:
 - **10 trips** spread across two service periods:
   - `000001`: December 2024 dates
   - `000010`: Late April/Early May 2025 dates
-- **Multiple stops are shared** across different trips (e.g., K�ln Hbf appears in 7 different trips)
+- **Multiple stops are shared** across different trips (e.g., Köln Hbf appears in 7 different trips)
 - **Overlapping schedules** to test time-based filtering
 
 ## Your Task
@@ -83,7 +83,7 @@ Your implementation should:
 1. **Load and parse** all GTFS CSV files
 2. **Accept parameters**:
 
-   - `station_name` (string): Name of the station (e.g., "K�ln Hbf")
+   - `station_name` (string): Name of the station (e.g., "Köln Hbf")
    - `from_time` (string): Start of time window (e.g., "09:00:00")
    - `to_time` (string): End of time window (e.g., "20:00:00")
    - `date` (string): Date in YYYYMMDD format (e.g., "20241216")
@@ -91,7 +91,7 @@ Your implementation should:
 
    - Departure time
    - Route short name (e.g., "ICE 70")
-   - Route long name/destination (e.g., "Hamburg � Basel")
+   - Route long name/destination (e.g., "Hamburg -> Basel")
    - Trip ID (for debugging/reference)
 4. **Filter correctly**:
 
