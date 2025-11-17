@@ -58,18 +58,6 @@ Defines on which specific dates a service operates.
 
 **Important**: A trip only runs on a given date if there's a matching entry in `calendar_dates.csv` for its `service_id`.
 
-### Dataset Characteristics
-
-The dataset is designed with realistic complexity:
-
-- **11 stations** across Germany, Netherlands, and Switzerland
-- **6 routes** (ICE, IC, and RE trains)
-- **10 trips** spread across two service periods:
-  - `000001`: December 2024 dates
-  - `000010`: Late April/Early May 2025 dates
-- **Multiple stops are shared** across different trips (e.g., K�ln Hbf appears in 7 different trips)
-- **Overlapping schedules** to test time-based filtering
-
 ## Your Task
 
 Create a function/class/module that can answer the following query:
